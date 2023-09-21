@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="static/css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="" class="container_form" method="POST">
+        <label for="userInput" id="userInput" class="container_form_label">
+          <span class="container_form_label_span">Enter text to convert into ASCII</span>
+          <textarea class="container_form_textbox" name="userInput"></textarea>
+        </label>
+        <div class="container_form_container">
+          <label for="standard">
+            <input
+              type="radio"
+              id="standard"
+              name="banner"
+              value="standard"
+              checked="checked"
+            />
+            <img class="container_form_container_image" src="static/media/standard.png" />
+          </label>
+          <label for="shadow">
+            <input type="radio" id="shadow" name="banner" value="shadow" />
+<img src="static/media/shadow.png" />
+          </label>
+          <label for="thinkertoy">
+            <input
+              type="radio"
+              id="thinkertoy"
+              name="banner"
+              value="thinkertoy"
+            />
+<img src="static/media/Thinkertoy.png" />
+          </label>
+        </div>
+        <input type="submit" value="Send" />
+      </form>
+      {{if or .DataRow .DataRow2}}
+      <div class="container_output">
+        <pre>{{.DataRow}}</pre>
+        <pre>{{.DataRow2}}</pre>
+      </div>
+      {{end}}
+    </div>
+    <!-- <script src="main.js"></script> -->
+  </body>
+</html>
