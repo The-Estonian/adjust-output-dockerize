@@ -28,12 +28,12 @@ Additional commands to clean your container/image repos:
 To delete an image from your computer you have to first delete the container.
 If the container is running, you have to first stop the container.
 
-Example: 
-    To delete an image that has an active running container you would need to run.
-    ```bash
-    "docker container stop <container id>"
-    "docker container rm <container id>"
-    "docker image rm <image id>"
-    ```
+##Example: 
+To delete an image that has an active running container you would need to run.
+```bash
+"docker container stop <container id>"
+"docker container rm <container id>"
+"docker image rm <image id>"
+```
 
 _<sup>Authors: [Jaanus Saar](https://01.kood.tech/git/jsaar), [Chris Laks](https://01.kood.tech/git/claks), [Usman Wani](https://01.kood.tech/git/uwani)_</sup>
