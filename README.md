@@ -15,8 +15,8 @@ Git clone the project
 
 ```bash
 "cd" into the project
-"docker-compose up -d" to create the image and run a instance of it.
-"docker-compose down" to shut down container
+"docker-compose up -d" to create the image and run a container instance of it.
+"docker-compose down" to shut down the container
 ```
 You are able to see the running container [here](http://localhost:3000)
 
