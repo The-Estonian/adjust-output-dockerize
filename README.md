@@ -15,11 +15,12 @@ Git clone the project
 
 ```bash
 "cd" into the project
-"docker-compose up -d" to create the image and run a instance of it [here](http://localhost:3000)
+"docker-compose up -d" to create the image and run a instance of it.
 "docker-compose down" to shut down container
 ```
+You are able to see the running container [here](http://localhost:3000)
 
-Additional commands to clean your container/image repos:
+Additional commands to oversee your container/image repos:
 
 ```bash
 "docker image ls -a" to see all images
@@ -28,7 +29,7 @@ Additional commands to clean your container/image repos:
 To delete an image from your computer you have to first delete the container.
 If the container is running, you have to first stop the container.
 
-##Example: 
+## Example: 
 To delete an image that has an active running container you would need to run.
 ```bash
 "docker container stop <container id>"
