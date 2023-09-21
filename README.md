@@ -9,7 +9,9 @@ Convert "ASCII Art Converter Web" into a docker image and use the image to creat
 ## How to Run the Project
 
 Install Docker Desktop on your computer.
+
 Official Docker Desktop link is [here](https://docs.docker.com/get-docker/).
+
 Git clone the project.
 
 ```bash
